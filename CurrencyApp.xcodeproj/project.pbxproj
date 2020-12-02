@@ -115,7 +115,7 @@
 				97C7333825610AA4007A0199 /* Cell */,
 				978145F825623C3500270324 /* Converter */,
 				9781460A25628D4D00270324 /* Views */,
-				97C733242561019F007A0199 /* Network */,
+				97C733242561019F007A0199 /* Service */,
 				97C7331C256100DB007A0199 /* Model */,
 				97C7331A2560FE90007A0199 /* Application */,
 			);
@@ -157,14 +157,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		97C733242561019F007A0199 /* Network */ = {
+		97C733242561019F007A0199 /* Service */ = {
 			isa = PBXGroup;
 			children = (
 				97C73325256101B0007A0199 /* NetworkManager.swift */,
 				97430D222572995A00082342 /* TextFormatter.swift */,
 				97D2CB7E2576067B00107DD3 /* UserDefManager.swift */,
 			);
-			path = Network;
+			path = Service;
 			sourceTree = "<group>";
 		};
 		97C7333825610AA4007A0199 /* Cell */ = {
