@@ -46,6 +46,7 @@ private extension CurrencyViewController {
 	}
 
 	func setupTableView() {
+        self.tableView.backgroundColor = UIColor.darkGray
 		self.tableView.delegate = self
 		self.tableView.dataSource = self
 		self.tableView.register(CurrencyCell.self, forCellReuseIdentifier: cellID)
